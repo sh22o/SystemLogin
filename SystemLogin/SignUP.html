@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Login</title> 
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/all.min.css"> 
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body> 
+     <div class="continer vh-100 "> 
+
+          <div class=" col-md-8 py-5 m-auto my-5 ">  
+            <div class="box text-center  p-5"> 
+                <h1>Smart SignUp System</h1> 
+                <input  class="d-block w-100 p-1 my-3 form-control  form-control-color myinput"  id="name" type=" text" placeholder="Enter your name ">  
+               
+                <p id="UserNAmeAllert" class="text-danger d-none"> mustStart with capitalLitter and at least 3 letter for name  </p> 
+                <p id="userNameExists" class="text-danger d-none">userName aready exists</p>
+                <input  class="d-block w-100 p-1 my-3 form-control  form-control-color myinput"  id="SignUpEmail" type="email" placeholder="Enter your Email ">  
+                <p  id="EmailExists"class="text-danger d-none"> this Email oready Exists  </p> 
+                <p id="EmailAllert" class="text-danger d-none"> name@examble.com </p>
+                <p id="thisAccountExists" class="text-danger d-none">this Account aready exists </p>
+                
+                <input class="d-block w-100 my-3 p-1  form-control myinput" id="password" type="password" placeholder="Enter your password" >   
+                <p id="PasswordAllert" class=" text-danger d-none">you must enter strong password at least 5 charachter </p>
+
+                <button class="btn btn-outline-info w-100 my-3" id="SignUpbtn"><a>SignUp</a></button>  
+                <p  id="SucssesMassege"class="text-success d-none">Success</p> 
+                <p id="tryAgain" class="d-none text-danger">  Error , please TryAgain  </p>
+                <p>Do you have account <a class="text-white" href="index.html"> login</a></p>
+
+
+
+            </div> 
+          
+
+          </div>
+     </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script> 
+    <script src="js/main.js"></script>
+</body>
+</html> 

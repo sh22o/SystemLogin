@@ -1,0 +1,46 @@
+:root{  
+    --maincolor:#212529;  
+
+
+}
+   
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ 
+ 
+ 
+ 
+ .continer{
+    overflow: auto; 
+    background-color: var(--maincolor);
+} 
+.box{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);  
+    background-color: var(--maincolor); 
+    color: white;
+} 
+input{
+    margin: auto; 
+   
+} 
+.myinput{
+        background-color: #111;
+        outline: none; 
+        border: none;
+        color: white;
+    } 
+    .myinput:focus{
+        background-color: #000; 
+        transform: scale(1.1); 
+        color: white;
+    }
+.home{
+    width:100%; 
+    height: 100vh; 
+    color: aliceblue;   
+    background-color: var(--maincolor);
+  
+
+} 
